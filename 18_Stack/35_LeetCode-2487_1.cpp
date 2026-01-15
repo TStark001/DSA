@@ -78,7 +78,8 @@ Node* removeNodes(Node* head) {
     while(curr and curr->next){
         if(curr->next->val < mx){
             curr->next = curr->next->next;
-        } else {
+        } 
+        else{
             curr = curr->next;
             mx = curr->val;
         }
