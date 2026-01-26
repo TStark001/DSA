@@ -27,6 +27,7 @@ Data Structure&Algorithm/
 ├── 17_LinkedList
 ├── 18_Stack
 ├── 19_Queue
+├── 20_BinaryTree
 └── README.md
 
 ## 🚀 LeetCode Profile
