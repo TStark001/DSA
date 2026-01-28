@@ -64,7 +64,6 @@ int main(){
     Node* n8 = new Node(8);
     Node* n7 = new Node(7);
     Node* n4 = new Node(4);
-
     // Build tree
     /*
             3
@@ -93,8 +92,8 @@ int main(){
 
     Node* lca = lowestCommonAncestor(n3, p, q);
 
-    if(lca) cout << "LCA of " << p->val << " and " << q->val << " is: " << lca->val << endl;
-    else cout << "LCA not found" << endl;
+    if(lca) cout<<"LCA of "<<p->val<<" and "<<q->val<<" is: "<<lca->val<<endl;
+    else cout<<"LCA not found"<<endl;
 
     return 0;
 }
